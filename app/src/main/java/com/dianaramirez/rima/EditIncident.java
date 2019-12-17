@@ -27,6 +27,7 @@ import br.com.simplepass.loadingbutton.customViews.CircularProgressButton;
 
 public class EditIncident extends AppCompatActivity {
 
+    //init
     Context context;
     private final static String[] types_incidents = { "Agua", "Alcantarillado", "Electricidad",
             "Telefonía", "Vías", "Ríos", "Laderas" };
