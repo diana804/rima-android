@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_profile">
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.dianaramirez.rima.ui.profile.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_total_report"
+        android:name="com.dianaramirez.rima.ui.total_report.TotalReportFragment"
+        android:label="@string/menu_total_incidents"
+        tools:layout="@layout/fragment_total_report" />
+
+    <fragment
+        android:id="@+id/nav_km_report"
+        android:name="com.dianaramirez.rima.ui.km_report.KmReportFragment"
+        android:label="@string/menu_km_incidents"
+        tools:layout="@layout/fragment_km_report" />
+
+    <fragment
+        android:id="@+id/nav_create_incident"
+        android:name="com.dianaramirez.rima.ui.create_incident.CreateIncidentFragment"
+        android:label="@string/menu_create"
+        tools:layout="@layout/fragment_create_incident" />
+
+    <fragment
+        android:id="@+id/nav_personal_incidents"
+        android:name="com.dianaramirez.rima.ui.personal_incidents.PersonalIncidentsFragment"
+        android:label="@string/menu_personal_alerts"
+        tools:layout="@layout/fragment_personal_incidents" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.dianaramirez.rima.ui.logout.LogoutFragment"
+        android:label="Cerrar sesión"
+        tools:layout="@layout/fragment_logout" />
+</navigation>

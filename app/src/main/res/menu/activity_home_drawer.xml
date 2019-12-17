@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person"
+            android:title="@string/menu_profile" />
+        <item
+            android:id="@+id/nav_total_report"
+            android:icon="@drawable/ic_report"
+            android:title="@string/menu_total_incidents" />
+        <item
+            android:id="@+id/nav_km_report"
+            android:icon="@drawable/ic_report"
+            android:title="@string/menu_km_incidents" />
+    </group>
+
+    <item android:title="Reportes">
+        <menu>
+            <item
+                android:id="@+id/nav_create_incident"
+                android:icon="@drawable/ic_add_alert"
+                android:title="@string/menu_create" />
+            <item
+                android:id="@+id/nav_personal_incidents"
+                android:icon="@drawable/ic_mode_edit"
+                android:title="@string/menu_personal_alerts" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_exit"
+                android:title="Cerrar sesión" />
+        </menu>
+    </item>
+
+</menu>
